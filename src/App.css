@@ -1,47 +1,73 @@
 /* App.css */
+
+/* Styling for the entire application */
 .App {
+  /* Use Arial font family or sans-serif as fallback */
   font-family: Arial, sans-serif;
-  text-align: center; /* Centering */
-  margin: 20px auto; 
+  /* Center align text content */
+  text-align: center;
+  /* Set top and bottom margin to 20px and horizontally center the element */
+  margin: 20px auto;
 }
 
+/* Styling for buttons */
 button {
+  /* Set margin around buttons */
   margin: 10px;
+  /* Set padding inside buttons */
   padding: 10px 20px;
+  /* Set font size for buttons */
   font-size: 16px;
+  /* Set cursor to pointer on hover */
   cursor: pointer;
 }
 
+/* Styling for tables */
 table {
+  /* Collapse table borders = connect borderline.*/
   border-collapse: collapse;
+  /* Set table width to 90% of its containing block */
   width: 90%;
-  margin: 0 auto; 
+  /* Center align the table */
+  margin: 0 auto;
 }
 
+/* Styling for table headers and cells */
 th, td {
+  /* Set border for cells */
   border: 1px solid #454545;
+  /* Set padding inside cells */
   padding: 4px;
 }
 
-
-
+/* Styling for table headers */
 th {
+  /* Set background color for table headers */
   background-color: #1A1A1A;
 }
 
-
+/* Styling for images inside table cells */
 td img {
-  border-radius: 2px; 
+  /* Set border radius for images */
+  border-radius: 2px;
 }
 
+/* Styling for buttons inside table cells */
 td button {
+  /* Set background color for buttons */
   background-color: #f44336;
+  /* Set text color for buttons */
   color: white;
+  /* Remove border for buttons */
   border: none;
+  /* Set padding inside buttons */
   padding: 5px 10px;
+  /* Set cursor to pointer on hover */
   cursor: pointer;
 }
 
+/* Styling for buttons inside table cells on hover */
 td button:hover {
+  /* Change background color for buttons on hover */
   background-color: #d32f2f;
 }
