@@ -1,3 +1,5 @@
+/* index.css */
+
 /* Root styles */
 
 /* Global styles for the root element */
@@ -14,10 +16,9 @@
   /* Set color scheme for light and dark modes */
   color-scheme: light dark;
   /* Set default text color */
-  color: rgba(255, 255, 255, 0.87);
-  /* Set background color */
-  background-color: #242424;
-
+  color: rgba(0, 0, 0, 0.87);
+  /* Set gradient background */
+  background: linear-gradient(to right, #ffd700, #ffcc00);
   /* Disable font synthesis */
   font-synthesis: none;
   /* Optimize text rendering for legibility */
