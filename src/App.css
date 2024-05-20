@@ -3,7 +3,7 @@
 /* Styling for the entire application */
 .App {
   /* Use Arial font family or sans-serif as fallback */
-  font-family: Arial, sans-serif;
+  font-family: 'Lato','Roboto', 'San Francisco', Arial, sans-serif;
   /* Center align text content */
   text-align: center;
   /* Set top and bottom margin to 20px and horizontally center the element */
